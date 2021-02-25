@@ -1,0 +1,15 @@
+version:  '3'
+services:
+  sonarqube:
+    container_name: sonarqube
+    image: sonarqube:latest
+    ports:
+      - "9000:9000"
+      - "9092:9092"
+  api:
+    build: .
+    command: npm run dev
+    ports: 
+      - "3333:3333"
+    volumes: 
+      - .:/usr/app
