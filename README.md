@@ -29,12 +29,15 @@ SonarQube (formerly Sonar) is an open-source platform developed by SonarSource f
 
 ## Run tests and configuring sonarqube
 After the build is complete, follow these sequential steps:
+
 - Run tests
+
   First, we need to run the tests to generate statistics on the SonarQube dashboard, for that, run the command:
   ```
   npm run test
   ```
 - Configuring SonarQube
+
   Now, we need to configure sonarqube for the project to be displayed on the dashboard, for that we need to access the URL: `http://localhost:9000` where we will need to login with the credentials:
   ```
   login: admin
