@@ -10,9 +10,9 @@
     "test": "jest"
   },
   "jestSonar": {
-    "reportPath":  "coverage",
-    "reportFile":  "test-reporter.xml",
-    "indent":  4
+    "reportPath": "coverage",
+    "reportFile": "test-reporter.xml",
+    "indent": 4
   },
   "keywords": [],
   "author": "",
